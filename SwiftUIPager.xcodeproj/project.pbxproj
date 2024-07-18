@@ -1,0 +1,1253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6BC5EE4E2487F5E000E1E78C /* SwiftUIPager */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6BC5EE4F2487F5E000E1E78C /* Build configuration list for PBXAggregateTarget "SwiftUIPager" */;
+			buildPhases = (
+				6BC5EE522487F76F00E1E78C /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = SwiftUIPager;
+			productName = SwiftUIPager;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1706A84525F0238E003FF39A /* Combine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1706A84425F0238E003FF39A /* Combine.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1706A84D25F023A7003FF39A /* Combine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1706A84C25F023A7003FF39A /* Combine.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1706A84E25F023B6003FF39A /* Combine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1706A84C25F023A7003FF39A /* Combine.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1706A85025F023C9003FF39A /* Combine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1706A84F25F023C9003FF39A /* Combine.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1706A85225F023D6003FF39A /* Combine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1706A85125F023D6003FF39A /* Combine.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		172F4D5323DF830600FD2F15 /* SwiftUIPager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BDE441A23DE10C10022A2F7 /* SwiftUIPager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17C7B25C2743CB3300BC51D4 /* PagerContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2462743CB3300BC51D4 /* PagerContent.swift */; };
+		17C7B25D2743CB3300BC51D4 /* PagerContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2462743CB3300BC51D4 /* PagerContent.swift */; };
+		17C7B25E2743CB3300BC51D4 /* PagerContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2462743CB3300BC51D4 /* PagerContent.swift */; };
+		17C7B25F2743CB3300BC51D4 /* PagerContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2462743CB3300BC51D4 /* PagerContent.swift */; };
+		17C7B2602743CB3300BC51D4 /* PagerContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2462743CB3300BC51D4 /* PagerContent.swift */; };
+		17C7B2612743CB3300BC51D4 /* PageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2472743CB3300BC51D4 /* PageTransition.swift */; };
+		17C7B2622743CB3300BC51D4 /* PageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2472743CB3300BC51D4 /* PageTransition.swift */; };
+		17C7B2632743CB3300BC51D4 /* PageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2472743CB3300BC51D4 /* PageTransition.swift */; };
+		17C7B2642743CB3300BC51D4 /* PageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2472743CB3300BC51D4 /* PageTransition.swift */; };
+		17C7B2652743CB3300BC51D4 /* PageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2472743CB3300BC51D4 /* PageTransition.swift */; };
+		17C7B2662743CB3300BC51D4 /* Pager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2482743CB3300BC51D4 /* Pager.swift */; };
+		17C7B2672743CB3300BC51D4 /* Pager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2482743CB3300BC51D4 /* Pager.swift */; };
+		17C7B2682743CB3300BC51D4 /* Pager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2482743CB3300BC51D4 /* Pager.swift */; };
+		17C7B2692743CB3300BC51D4 /* Pager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2482743CB3300BC51D4 /* Pager.swift */; };
+		17C7B26A2743CB3300BC51D4 /* Pager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2482743CB3300BC51D4 /* Pager.swift */; };
+		17C7B2702743CB3300BC51D4 /* OnAnimationCompletedModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24B2743CB3300BC51D4 /* OnAnimationCompletedModifier.swift */; };
+		17C7B2712743CB3300BC51D4 /* OnAnimationCompletedModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24B2743CB3300BC51D4 /* OnAnimationCompletedModifier.swift */; };
+		17C7B2722743CB3300BC51D4 /* OnAnimationCompletedModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24B2743CB3300BC51D4 /* OnAnimationCompletedModifier.swift */; };
+		17C7B2732743CB3300BC51D4 /* OnAnimationCompletedModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24B2743CB3300BC51D4 /* OnAnimationCompletedModifier.swift */; };
+		17C7B2742743CB3300BC51D4 /* OnAnimationCompletedModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24B2743CB3300BC51D4 /* OnAnimationCompletedModifier.swift */; };
+		17C7B2752743CB3300BC51D4 /* View+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24C2743CB3300BC51D4 /* View+Helper.swift */; };
+		17C7B2762743CB3300BC51D4 /* View+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24C2743CB3300BC51D4 /* View+Helper.swift */; };
+		17C7B2772743CB3300BC51D4 /* View+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24C2743CB3300BC51D4 /* View+Helper.swift */; };
+		17C7B2782743CB3300BC51D4 /* View+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24C2743CB3300BC51D4 /* View+Helper.swift */; };
+		17C7B2792743CB3300BC51D4 /* View+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24C2743CB3300BC51D4 /* View+Helper.swift */; };
+		17C7B27A2743CB3300BC51D4 /* CGPoint+Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24D2743CB3300BC51D4 /* CGPoint+Angle.swift */; };
+		17C7B27B2743CB3300BC51D4 /* CGPoint+Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24D2743CB3300BC51D4 /* CGPoint+Angle.swift */; };
+		17C7B27C2743CB3300BC51D4 /* CGPoint+Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24D2743CB3300BC51D4 /* CGPoint+Angle.swift */; };
+		17C7B27D2743CB3300BC51D4 /* CGPoint+Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24D2743CB3300BC51D4 /* CGPoint+Angle.swift */; };
+		17C7B27E2743CB3300BC51D4 /* CGPoint+Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24D2743CB3300BC51D4 /* CGPoint+Angle.swift */; };
+		17C7B27F2743CB3300BC51D4 /* Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24E2743CB3300BC51D4 /* Buildable.swift */; };
+		17C7B2802743CB3300BC51D4 /* Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24E2743CB3300BC51D4 /* Buildable.swift */; };
+		17C7B2812743CB3300BC51D4 /* Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24E2743CB3300BC51D4 /* Buildable.swift */; };
+		17C7B2822743CB3300BC51D4 /* Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24E2743CB3300BC51D4 /* Buildable.swift */; };
+		17C7B2832743CB3300BC51D4 /* Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B24E2743CB3300BC51D4 /* Buildable.swift */; };
+		17C7B2842743CB3300BC51D4 /* PagingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2502743CB3300BC51D4 /* PagingAnimation.swift */; };
+		17C7B2852743CB3300BC51D4 /* PagingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2502743CB3300BC51D4 /* PagingAnimation.swift */; };
+		17C7B2862743CB3300BC51D4 /* PagingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2502743CB3300BC51D4 /* PagingAnimation.swift */; };
+		17C7B2872743CB3300BC51D4 /* PagingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2502743CB3300BC51D4 /* PagingAnimation.swift */; };
+		17C7B2882743CB3300BC51D4 /* PagingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2502743CB3300BC51D4 /* PagingAnimation.swift */; };
+		17C7B2892743CB3300BC51D4 /* PositionAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2512743CB3300BC51D4 /* PositionAlignment.swift */; };
+		17C7B28A2743CB3300BC51D4 /* PositionAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2512743CB3300BC51D4 /* PositionAlignment.swift */; };
+		17C7B28B2743CB3300BC51D4 /* PositionAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2512743CB3300BC51D4 /* PositionAlignment.swift */; };
+		17C7B28C2743CB3300BC51D4 /* PositionAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2512743CB3300BC51D4 /* PositionAlignment.swift */; };
+		17C7B28D2743CB3300BC51D4 /* PositionAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2512743CB3300BC51D4 /* PositionAlignment.swift */; };
+		17C7B28E2743CB3300BC51D4 /* SwipeInteractionArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2522743CB3300BC51D4 /* SwipeInteractionArea.swift */; };
+		17C7B28F2743CB3300BC51D4 /* SwipeInteractionArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2522743CB3300BC51D4 /* SwipeInteractionArea.swift */; };
+		17C7B2902743CB3300BC51D4 /* SwipeInteractionArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2522743CB3300BC51D4 /* SwipeInteractionArea.swift */; };
+		17C7B2912743CB3300BC51D4 /* SwipeInteractionArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2522743CB3300BC51D4 /* SwipeInteractionArea.swift */; };
+		17C7B2922743CB3300BC51D4 /* SwipeInteractionArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2522743CB3300BC51D4 /* SwipeInteractionArea.swift */; };
+		17C7B2932743CB3300BC51D4 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2532743CB3300BC51D4 /* SwipeDirection.swift */; };
+		17C7B2942743CB3300BC51D4 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2532743CB3300BC51D4 /* SwipeDirection.swift */; };
+		17C7B2952743CB3300BC51D4 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2532743CB3300BC51D4 /* SwipeDirection.swift */; };
+		17C7B2962743CB3300BC51D4 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2532743CB3300BC51D4 /* SwipeDirection.swift */; };
+		17C7B2972743CB3300BC51D4 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2532743CB3300BC51D4 /* SwipeDirection.swift */; };
+		17C7B2982743CB3300BC51D4 /* PaginationSensitivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2542743CB3300BC51D4 /* PaginationSensitivity.swift */; };
+		17C7B2992743CB3300BC51D4 /* PaginationSensitivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2542743CB3300BC51D4 /* PaginationSensitivity.swift */; };
+		17C7B29A2743CB3300BC51D4 /* PaginationSensitivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2542743CB3300BC51D4 /* PaginationSensitivity.swift */; };
+		17C7B29B2743CB3300BC51D4 /* PaginationSensitivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2542743CB3300BC51D4 /* PaginationSensitivity.swift */; };
+		17C7B29C2743CB3300BC51D4 /* PaginationSensitivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2542743CB3300BC51D4 /* PaginationSensitivity.swift */; };
+		17C7B29D2743CB3300BC51D4 /* ContentLoadingPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2552743CB3300BC51D4 /* ContentLoadingPolicy.swift */; };
+		17C7B29E2743CB3300BC51D4 /* ContentLoadingPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2552743CB3300BC51D4 /* ContentLoadingPolicy.swift */; };
+		17C7B29F2743CB3300BC51D4 /* ContentLoadingPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2552743CB3300BC51D4 /* ContentLoadingPolicy.swift */; };
+		17C7B2A02743CB3300BC51D4 /* ContentLoadingPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2552743CB3300BC51D4 /* ContentLoadingPolicy.swift */; };
+		17C7B2A12743CB3300BC51D4 /* ContentLoadingPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2552743CB3300BC51D4 /* ContentLoadingPolicy.swift */; };
+		17C7B2A22743CB3300BC51D4 /* GesturePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2562743CB3300BC51D4 /* GesturePriority.swift */; };
+		17C7B2A32743CB3300BC51D4 /* GesturePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2562743CB3300BC51D4 /* GesturePriority.swift */; };
+		17C7B2A42743CB3300BC51D4 /* GesturePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2562743CB3300BC51D4 /* GesturePriority.swift */; };
+		17C7B2A52743CB3300BC51D4 /* GesturePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2562743CB3300BC51D4 /* GesturePriority.swift */; };
+		17C7B2A62743CB3300BC51D4 /* GesturePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2562743CB3300BC51D4 /* GesturePriority.swift */; };
+		17C7B2A72743CB3300BC51D4 /* PagerContent+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2572743CB3300BC51D4 /* PagerContent+Helper.swift */; };
+		17C7B2A82743CB3300BC51D4 /* PagerContent+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2572743CB3300BC51D4 /* PagerContent+Helper.swift */; };
+		17C7B2A92743CB3300BC51D4 /* PagerContent+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2572743CB3300BC51D4 /* PagerContent+Helper.swift */; };
+		17C7B2AA2743CB3300BC51D4 /* PagerContent+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2572743CB3300BC51D4 /* PagerContent+Helper.swift */; };
+		17C7B2AB2743CB3300BC51D4 /* PagerContent+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2572743CB3300BC51D4 /* PagerContent+Helper.swift */; };
+		17C7B2AC2743CB3300BC51D4 /* Pager+Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2582743CB3300BC51D4 /* Pager+Buildable.swift */; };
+		17C7B2AD2743CB3300BC51D4 /* Pager+Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2582743CB3300BC51D4 /* Pager+Buildable.swift */; };
+		17C7B2AE2743CB3300BC51D4 /* Pager+Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2582743CB3300BC51D4 /* Pager+Buildable.swift */; };
+		17C7B2AF2743CB3300BC51D4 /* Pager+Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2582743CB3300BC51D4 /* Pager+Buildable.swift */; };
+		17C7B2B02743CB3300BC51D4 /* Pager+Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2582743CB3300BC51D4 /* Pager+Buildable.swift */; };
+		17C7B2B12743CB3300BC51D4 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2592743CB3300BC51D4 /* Page.swift */; };
+		17C7B2B22743CB3300BC51D4 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2592743CB3300BC51D4 /* Page.swift */; };
+		17C7B2B32743CB3300BC51D4 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2592743CB3300BC51D4 /* Page.swift */; };
+		17C7B2B42743CB3300BC51D4 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2592743CB3300BC51D4 /* Page.swift */; };
+		17C7B2B52743CB3300BC51D4 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B2592743CB3300BC51D4 /* Page.swift */; };
+		17C7B2B62743CB3300BC51D4 /* PagerContent+Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B25A2743CB3300BC51D4 /* PagerContent+Buildable.swift */; };
+		17C7B2B72743CB3300BC51D4 /* PagerContent+Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B25A2743CB3300BC51D4 /* PagerContent+Buildable.swift */; };
+		17C7B2B82743CB3300BC51D4 /* PagerContent+Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B25A2743CB3300BC51D4 /* PagerContent+Buildable.swift */; };
+		17C7B2B92743CB3300BC51D4 /* PagerContent+Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B25A2743CB3300BC51D4 /* PagerContent+Buildable.swift */; };
+		17C7B2BA2743CB3300BC51D4 /* PagerContent+Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B25A2743CB3300BC51D4 /* PagerContent+Buildable.swift */; };
+		17C7B2BB2743CB3300BC51D4 /* PageWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B25B2743CB3300BC51D4 /* PageWrapper.swift */; };
+		17C7B2BC2743CB3300BC51D4 /* PageWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B25B2743CB3300BC51D4 /* PageWrapper.swift */; };
+		17C7B2BD2743CB3300BC51D4 /* PageWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B25B2743CB3300BC51D4 /* PageWrapper.swift */; };
+		17C7B2BE2743CB3300BC51D4 /* PageWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B25B2743CB3300BC51D4 /* PageWrapper.swift */; };
+		17C7B2BF2743CB3300BC51D4 /* PageWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B25B2743CB3300BC51D4 /* PageWrapper.swift */; };
+		6B2C2FE1248D37B700E528F9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2C2FDE248D379D00E528F9 /* SwiftUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6B2C2FE3248D37C100E528F9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2C2FE2248D37C100E528F9 /* SwiftUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6B2C2FE5248D37CC00E528F9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2C2FE4248D37CC00E528F9 /* SwiftUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6B2C2FFB248D56C100E528F9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2C2FDE248D379D00E528F9 /* SwiftUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6B2C2FFD248D590300E528F9 /* libswiftCore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2C2FFC248D58F300E528F9 /* libswiftCore.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6B2C2FFE248D590E00E528F9 /* libswiftCore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2C2FFC248D58F300E528F9 /* libswiftCore.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6B2C3000248D591800E528F9 /* libswiftCore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2C2FFF248D591800E528F9 /* libswiftCore.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6B2C3002248D592100E528F9 /* libswiftCore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2C3001248D592100E528F9 /* libswiftCore.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6B2C3057248D740800E528F9 /* SwiftUIPager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BDE441A23DE10C10022A2F7 /* SwiftUIPager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B2C3061248D740800E528F9 /* libswiftCore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2C2FFC248D58F300E528F9 /* libswiftCore.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6B2C3062248D740800E528F9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2C2FDE248D379D00E528F9 /* SwiftUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6BDE441C23DE10C10022A2F7 /* SwiftUIPager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BDE441A23DE10C10022A2F7 /* SwiftUIPager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1706A84425F0238E003FF39A /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = System/Library/Frameworks/Combine.framework; sourceTree = SDKROOT; };
+		1706A84C25F023A7003FF39A /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Combine.framework; sourceTree = DEVELOPER_DIR; };
+		1706A84F25F023C9003FF39A /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/Combine.framework; sourceTree = DEVELOPER_DIR; };
+		1706A85125F023D6003FF39A /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.3.sdk/System/Library/Frameworks/Combine.framework; sourceTree = DEVELOPER_DIR; };
+		172F4D6023DF830600FD2F15 /* SwiftUIPager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUIPager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		172F4D6123DF830600FD2F15 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
+		172F4D7823DF8A6400FD2F15 /* SwiftUIPager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUIPager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		172F4D7B23DF8A6400FD2F15 /* Info-watchOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
+		17C7B2462743CB3300BC51D4 /* PagerContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerContent.swift; sourceTree = "<group>"; };
+		17C7B2472743CB3300BC51D4 /* PageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTransition.swift; sourceTree = "<group>"; };
+		17C7B2482743CB3300BC51D4 /* Pager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pager.swift; sourceTree = "<group>"; };
+		17C7B24B2743CB3300BC51D4 /* OnAnimationCompletedModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnAnimationCompletedModifier.swift; sourceTree = "<group>"; };
+		17C7B24C2743CB3300BC51D4 /* View+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Helper.swift"; sourceTree = "<group>"; };
+		17C7B24D2743CB3300BC51D4 /* CGPoint+Angle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Angle.swift"; sourceTree = "<group>"; };
+		17C7B24E2743CB3300BC51D4 /* Buildable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buildable.swift; sourceTree = "<group>"; };
+		17C7B2502743CB3300BC51D4 /* PagingAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingAnimation.swift; sourceTree = "<group>"; };
+		17C7B2512743CB3300BC51D4 /* PositionAlignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionAlignment.swift; sourceTree = "<group>"; };
+		17C7B2522743CB3300BC51D4 /* SwipeInteractionArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeInteractionArea.swift; sourceTree = "<group>"; };
+		17C7B2532743CB3300BC51D4 /* SwipeDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeDirection.swift; sourceTree = "<group>"; };
+		17C7B2542743CB3300BC51D4 /* PaginationSensitivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginationSensitivity.swift; sourceTree = "<group>"; };
+		17C7B2552743CB3300BC51D4 /* ContentLoadingPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentLoadingPolicy.swift; sourceTree = "<group>"; };
+		17C7B2562743CB3300BC51D4 /* GesturePriority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GesturePriority.swift; sourceTree = "<group>"; };
+		17C7B2572743CB3300BC51D4 /* PagerContent+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PagerContent+Helper.swift"; sourceTree = "<group>"; };
+		17C7B2582743CB3300BC51D4 /* Pager+Buildable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pager+Buildable.swift"; sourceTree = "<group>"; };
+		17C7B2592743CB3300BC51D4 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		17C7B25A2743CB3300BC51D4 /* PagerContent+Buildable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PagerContent+Buildable.swift"; sourceTree = "<group>"; };
+		17C7B25B2743CB3300BC51D4 /* PageWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageWrapper.swift; sourceTree = "<group>"; };
+		6B2C2FDE248D379D00E528F9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
+		6B2C2FE2248D37C100E528F9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS6.2.sdk/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
+		6B2C2FE4248D37CC00E528F9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS13.4.sdk/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
+		6B2C2FFC248D58F300E528F9 /* libswiftCore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCore.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/libswiftCore.tbd; sourceTree = DEVELOPER_DIR; };
+		6B2C2FFF248D591800E528F9 /* libswiftCore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCore.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS6.2.sdk/usr/lib/swift/libswiftCore.tbd; sourceTree = DEVELOPER_DIR; };
+		6B2C3001248D592100E528F9 /* libswiftCore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCore.tbd; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS13.4.sdk/usr/lib/swift/libswiftCore.tbd; sourceTree = DEVELOPER_DIR; };
+		6B2C3067248D740800E528F9 /* SwiftUIPager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUIPager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2C3069248D747700E528F9 /* Info-Catalyst.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Catalyst.plist"; sourceTree = "<group>"; };
+		6B3F9C052488E6FE00AF5E74 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		6BBC3D6B2488DBE8004194BD /* SwiftUIPager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUIPager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDE441723DE10C10022A2F7 /* SwiftUIPager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUIPager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDE441A23DE10C10022A2F7 /* SwiftUIPager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftUIPager.h; sourceTree = "<group>"; };
+		6BDE441B23DE10C10022A2F7 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		172F4D5B23DF830600FD2F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2C2FFE248D590E00E528F9 /* libswiftCore.tbd in Frameworks */,
+				1706A84E25F023B6003FF39A /* Combine.framework in Frameworks */,
+				6B2C2FE1248D37B700E528F9 /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172F4D7523DF8A6400FD2F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2C3000248D591800E528F9 /* libswiftCore.tbd in Frameworks */,
+				1706A85025F023C9003FF39A /* Combine.framework in Frameworks */,
+				6B2C2FE3248D37C100E528F9 /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2C3060248D740800E528F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2C3061248D740800E528F9 /* libswiftCore.tbd in Frameworks */,
+				1706A84D25F023A7003FF39A /* Combine.framework in Frameworks */,
+				6B2C3062248D740800E528F9 /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BBC3D682488DBE8004194BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1706A85225F023D6003FF39A /* Combine.framework in Frameworks */,
+				6B2C3002248D592100E528F9 /* libswiftCore.tbd in Frameworks */,
+				6B2C2FE5248D37CC00E528F9 /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDE441423DE10C10022A2F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2C2FFD248D590300E528F9 /* libswiftCore.tbd in Frameworks */,
+				1706A84525F0238E003FF39A /* Combine.framework in Frameworks */,
+				6B2C2FFB248D56C100E528F9 /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C7B2492743CB3300BC51D4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				17C7B24B2743CB3300BC51D4 /* OnAnimationCompletedModifier.swift */,
+				17C7B24C2743CB3300BC51D4 /* View+Helper.swift */,
+				17C7B24D2743CB3300BC51D4 /* CGPoint+Angle.swift */,
+				17C7B24E2743CB3300BC51D4 /* Buildable.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		17C7B24F2743CB3300BC51D4 /* PageConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				17C7B2502743CB3300BC51D4 /* PagingAnimation.swift */,
+				17C7B2512743CB3300BC51D4 /* PositionAlignment.swift */,
+				17C7B2522743CB3300BC51D4 /* SwipeInteractionArea.swift */,
+				17C7B2532743CB3300BC51D4 /* SwipeDirection.swift */,
+				17C7B2542743CB3300BC51D4 /* PaginationSensitivity.swift */,
+				17C7B2552743CB3300BC51D4 /* ContentLoadingPolicy.swift */,
+				17C7B2562743CB3300BC51D4 /* GesturePriority.swift */,
+			);
+			path = PageConfiguration;
+			sourceTree = "<group>";
+		};
+		6B2C2FDD248D379D00E528F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1706A84425F0238E003FF39A /* Combine.framework */,
+				1706A84C25F023A7003FF39A /* Combine.framework */,
+				1706A84F25F023C9003FF39A /* Combine.framework */,
+				1706A85125F023D6003FF39A /* Combine.framework */,
+				6B2C2FFC248D58F300E528F9 /* libswiftCore.tbd */,
+				6B2C2FFF248D591800E528F9 /* libswiftCore.tbd */,
+				6B2C3001248D592100E528F9 /* libswiftCore.tbd */,
+				6B2C2FE4248D37CC00E528F9 /* SwiftUI.framework */,
+				6B2C2FE2248D37C100E528F9 /* SwiftUI.framework */,
+				6B2C2FDE248D379D00E528F9 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BDE440D23DE10C10022A2F7 = {
+			isa = PBXGroup;
+			children = (
+				6BDE441923DE10C10022A2F7 /* SwiftUIPager */,
+				6BDE441823DE10C10022A2F7 /* Products */,
+				6B2C2FDD248D379D00E528F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BDE441823DE10C10022A2F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BDE441723DE10C10022A2F7 /* SwiftUIPager.framework */,
+				172F4D6023DF830600FD2F15 /* SwiftUIPager.framework */,
+				172F4D7823DF8A6400FD2F15 /* SwiftUIPager.framework */,
+				6BBC3D6B2488DBE8004194BD /* SwiftUIPager.framework */,
+				6B2C3067248D740800E528F9 /* SwiftUIPager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BDE441923DE10C10022A2F7 /* SwiftUIPager */ = {
+			isa = PBXGroup;
+			children = (
+				17C7B2492743CB3300BC51D4 /* Helpers */,
+				17C7B2592743CB3300BC51D4 /* Page.swift */,
+				17C7B24F2743CB3300BC51D4 /* PageConfiguration */,
+				17C7B2482743CB3300BC51D4 /* Pager.swift */,
+				17C7B2582743CB3300BC51D4 /* Pager+Buildable.swift */,
+				17C7B2462743CB3300BC51D4 /* PagerContent.swift */,
+				17C7B25A2743CB3300BC51D4 /* PagerContent+Buildable.swift */,
+				17C7B2572743CB3300BC51D4 /* PagerContent+Helper.swift */,
+				17C7B2472743CB3300BC51D4 /* PageTransition.swift */,
+				17C7B25B2743CB3300BC51D4 /* PageWrapper.swift */,
+				6BEA732F24ACFAB3007EA8DC /* SupportFiles */,
+			);
+			path = SwiftUIPager;
+			sourceTree = "<group>";
+		};
+		6BEA732F24ACFAB3007EA8DC /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6BDE441A23DE10C10022A2F7 /* SwiftUIPager.h */,
+				6BDE441B23DE10C10022A2F7 /* Info-iOS.plist */,
+				6B2C3069248D747700E528F9 /* Info-Catalyst.plist */,
+				172F4D6123DF830600FD2F15 /* Info-macOS.plist */,
+				6B3F9C052488E6FE00AF5E74 /* Info-tvOS.plist */,
+				172F4D7B23DF8A6400FD2F15 /* Info-watchOS.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		172F4D5223DF830600FD2F15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172F4D5323DF830600FD2F15 /* SwiftUIPager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172F4D7323DF8A6400FD2F15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2C3056248D740800E528F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2C3057248D740800E528F9 /* SwiftUIPager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BBC3D662488DBE8004194BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDE441223DE10C10022A2F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDE441C23DE10C10022A2F7 /* SwiftUIPager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		172F4D5123DF830600FD2F15 /* SwiftUIPager_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172F4D5D23DF830600FD2F15 /* Build configuration list for PBXNativeTarget "SwiftUIPager_macOS" */;
+			buildPhases = (
+				172F4D5223DF830600FD2F15 /* Headers */,
+				172F4D5423DF830600FD2F15 /* Sources */,
+				172F4D5B23DF830600FD2F15 /* Frameworks */,
+				172F4D5C23DF830600FD2F15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIPager_macOS;
+			productName = SwiftUIPager;
+			productReference = 172F4D6023DF830600FD2F15 /* SwiftUIPager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		172F4D7723DF8A6400FD2F15 /* SwiftUIPager_watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172F4D7D23DF8A6400FD2F15 /* Build configuration list for PBXNativeTarget "SwiftUIPager_watchOS" */;
+			buildPhases = (
+				172F4D7323DF8A6400FD2F15 /* Headers */,
+				172F4D7423DF8A6400FD2F15 /* Sources */,
+				172F4D7523DF8A6400FD2F15 /* Frameworks */,
+				172F4D7623DF8A6400FD2F15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIPager_watchOS;
+			productName = SwiftUIPager_watchOS;
+			productReference = 172F4D7823DF8A6400FD2F15 /* SwiftUIPager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B2C3055248D740800E528F9 /* SwiftUIPager_Catalyst */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2C3064248D740800E528F9 /* Build configuration list for PBXNativeTarget "SwiftUIPager_Catalyst" */;
+			buildPhases = (
+				6B2C3056248D740800E528F9 /* Headers */,
+				6B2C3058248D740800E528F9 /* Sources */,
+				6B2C3060248D740800E528F9 /* Frameworks */,
+				6B2C3063248D740800E528F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIPager_Catalyst;
+			productName = SwiftUIPager;
+			productReference = 6B2C3067248D740800E528F9 /* SwiftUIPager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6BBC3D6A2488DBE8004194BD /* SwiftUIPager_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BBC3D722488DBE8004194BD /* Build configuration list for PBXNativeTarget "SwiftUIPager_tvOS" */;
+			buildPhases = (
+				6BBC3D662488DBE8004194BD /* Headers */,
+				6BBC3D672488DBE8004194BD /* Sources */,
+				6BBC3D682488DBE8004194BD /* Frameworks */,
+				6BBC3D692488DBE8004194BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIPager_tvOS;
+			productName = SwiftUIPager_tvOS;
+			productReference = 6BBC3D6B2488DBE8004194BD /* SwiftUIPager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6BDE441623DE10C10022A2F7 /* SwiftUIPager_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BDE441F23DE10C10022A2F7 /* Build configuration list for PBXNativeTarget "SwiftUIPager_iOS" */;
+			buildPhases = (
+				6BDE441223DE10C10022A2F7 /* Headers */,
+				6BDE441323DE10C10022A2F7 /* Sources */,
+				6BDE441423DE10C10022A2F7 /* Frameworks */,
+				6BDE441523DE10C10022A2F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIPager_iOS;
+			productName = SwiftUIPager;
+			productReference = 6BDE441723DE10C10022A2F7 /* SwiftUIPager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BDE440E23DE10C10022A2F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Fernando Moya de Rivas";
+				TargetAttributes = {
+					172F4D5123DF830600FD2F15 = {
+						LastSwiftMigration = 1300;
+					};
+					172F4D7723DF8A6400FD2F15 = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1300;
+					};
+					6B2C3055248D740800E528F9 = {
+						LastSwiftMigration = 1300;
+					};
+					6BBC3D6A2488DBE8004194BD = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1300;
+					};
+					6BC5EE4E2487F5E000E1E78C = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1230;
+					};
+					6BDE441623DE10C10022A2F7 = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1300;
+					};
+				};
+			};
+			buildConfigurationList = 6BDE441123DE10C10022A2F7 /* Build configuration list for PBXProject "SwiftUIPager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BDE440D23DE10C10022A2F7;
+			productRefGroup = 6BDE441823DE10C10022A2F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BDE441623DE10C10022A2F7 /* SwiftUIPager_iOS */,
+				6B2C3055248D740800E528F9 /* SwiftUIPager_Catalyst */,
+				172F4D5123DF830600FD2F15 /* SwiftUIPager_macOS */,
+				172F4D7723DF8A6400FD2F15 /* SwiftUIPager_watchOS */,
+				6BBC3D6A2488DBE8004194BD /* SwiftUIPager_tvOS */,
+				6BC5EE4E2487F5E000E1E78C /* SwiftUIPager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		172F4D5C23DF830600FD2F15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172F4D7623DF8A6400FD2F15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2C3063248D740800E528F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BBC3D692488DBE8004194BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDE441523DE10C10022A2F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BC5EE522487F76F00E1E78C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./scripts/build_xcframework.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		172F4D5423DF830600FD2F15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C7B2952743CB3300BC51D4 /* SwipeDirection.swift in Sources */,
+				17C7B2A42743CB3300BC51D4 /* GesturePriority.swift in Sources */,
+				17C7B2682743CB3300BC51D4 /* Pager.swift in Sources */,
+				17C7B25E2743CB3300BC51D4 /* PagerContent.swift in Sources */,
+				17C7B28B2743CB3300BC51D4 /* PositionAlignment.swift in Sources */,
+				17C7B27C2743CB3300BC51D4 /* CGPoint+Angle.swift in Sources */,
+				17C7B2BD2743CB3300BC51D4 /* PageWrapper.swift in Sources */,
+				17C7B2722743CB3300BC51D4 /* OnAnimationCompletedModifier.swift in Sources */,
+				17C7B2862743CB3300BC51D4 /* PagingAnimation.swift in Sources */,
+				17C7B2AE2743CB3300BC51D4 /* Pager+Buildable.swift in Sources */,
+				17C7B2632743CB3300BC51D4 /* PageTransition.swift in Sources */,
+				17C7B2A92743CB3300BC51D4 /* PagerContent+Helper.swift in Sources */,
+				17C7B29F2743CB3300BC51D4 /* ContentLoadingPolicy.swift in Sources */,
+				17C7B2772743CB3300BC51D4 /* View+Helper.swift in Sources */,
+				17C7B29A2743CB3300BC51D4 /* PaginationSensitivity.swift in Sources */,
+				17C7B2B82743CB3300BC51D4 /* PagerContent+Buildable.swift in Sources */,
+				17C7B2B32743CB3300BC51D4 /* Page.swift in Sources */,
+				17C7B2812743CB3300BC51D4 /* Buildable.swift in Sources */,
+				17C7B2902743CB3300BC51D4 /* SwipeInteractionArea.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172F4D7423DF8A6400FD2F15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C7B2962743CB3300BC51D4 /* SwipeDirection.swift in Sources */,
+				17C7B2A52743CB3300BC51D4 /* GesturePriority.swift in Sources */,
+				17C7B2692743CB3300BC51D4 /* Pager.swift in Sources */,
+				17C7B25F2743CB3300BC51D4 /* PagerContent.swift in Sources */,
+				17C7B28C2743CB3300BC51D4 /* PositionAlignment.swift in Sources */,
+				17C7B27D2743CB3300BC51D4 /* CGPoint+Angle.swift in Sources */,
+				17C7B2BE2743CB3300BC51D4 /* PageWrapper.swift in Sources */,
+				17C7B2732743CB3300BC51D4 /* OnAnimationCompletedModifier.swift in Sources */,
+				17C7B2872743CB3300BC51D4 /* PagingAnimation.swift in Sources */,
+				17C7B2AF2743CB3300BC51D4 /* Pager+Buildable.swift in Sources */,
+				17C7B2642743CB3300BC51D4 /* PageTransition.swift in Sources */,
+				17C7B2AA2743CB3300BC51D4 /* PagerContent+Helper.swift in Sources */,
+				17C7B2A02743CB3300BC51D4 /* ContentLoadingPolicy.swift in Sources */,
+				17C7B2782743CB3300BC51D4 /* View+Helper.swift in Sources */,
+				17C7B29B2743CB3300BC51D4 /* PaginationSensitivity.swift in Sources */,
+				17C7B2B92743CB3300BC51D4 /* PagerContent+Buildable.swift in Sources */,
+				17C7B2B42743CB3300BC51D4 /* Page.swift in Sources */,
+				17C7B2822743CB3300BC51D4 /* Buildable.swift in Sources */,
+				17C7B2912743CB3300BC51D4 /* SwipeInteractionArea.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2C3058248D740800E528F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C7B2942743CB3300BC51D4 /* SwipeDirection.swift in Sources */,
+				17C7B2A32743CB3300BC51D4 /* GesturePriority.swift in Sources */,
+				17C7B2672743CB3300BC51D4 /* Pager.swift in Sources */,
+				17C7B25D2743CB3300BC51D4 /* PagerContent.swift in Sources */,
+				17C7B28A2743CB3300BC51D4 /* PositionAlignment.swift in Sources */,
+				17C7B27B2743CB3300BC51D4 /* CGPoint+Angle.swift in Sources */,
+				17C7B2BC2743CB3300BC51D4 /* PageWrapper.swift in Sources */,
+				17C7B2712743CB3300BC51D4 /* OnAnimationCompletedModifier.swift in Sources */,
+				17C7B2852743CB3300BC51D4 /* PagingAnimation.swift in Sources */,
+				17C7B2AD2743CB3300BC51D4 /* Pager+Buildable.swift in Sources */,
+				17C7B2622743CB3300BC51D4 /* PageTransition.swift in Sources */,
+				17C7B2A82743CB3300BC51D4 /* PagerContent+Helper.swift in Sources */,
+				17C7B29E2743CB3300BC51D4 /* ContentLoadingPolicy.swift in Sources */,
+				17C7B2762743CB3300BC51D4 /* View+Helper.swift in Sources */,
+				17C7B2992743CB3300BC51D4 /* PaginationSensitivity.swift in Sources */,
+				17C7B2B72743CB3300BC51D4 /* PagerContent+Buildable.swift in Sources */,
+				17C7B2B22743CB3300BC51D4 /* Page.swift in Sources */,
+				17C7B2802743CB3300BC51D4 /* Buildable.swift in Sources */,
+				17C7B28F2743CB3300BC51D4 /* SwipeInteractionArea.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BBC3D672488DBE8004194BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C7B2972743CB3300BC51D4 /* SwipeDirection.swift in Sources */,
+				17C7B2A62743CB3300BC51D4 /* GesturePriority.swift in Sources */,
+				17C7B26A2743CB3300BC51D4 /* Pager.swift in Sources */,
+				17C7B2602743CB3300BC51D4 /* PagerContent.swift in Sources */,
+				17C7B28D2743CB3300BC51D4 /* PositionAlignment.swift in Sources */,
+				17C7B27E2743CB3300BC51D4 /* CGPoint+Angle.swift in Sources */,
+				17C7B2BF2743CB3300BC51D4 /* PageWrapper.swift in Sources */,
+				17C7B2742743CB3300BC51D4 /* OnAnimationCompletedModifier.swift in Sources */,
+				17C7B2882743CB3300BC51D4 /* PagingAnimation.swift in Sources */,
+				17C7B2B02743CB3300BC51D4 /* Pager+Buildable.swift in Sources */,
+				17C7B2652743CB3300BC51D4 /* PageTransition.swift in Sources */,
+				17C7B2AB2743CB3300BC51D4 /* PagerContent+Helper.swift in Sources */,
+				17C7B2A12743CB3300BC51D4 /* ContentLoadingPolicy.swift in Sources */,
+				17C7B2792743CB3300BC51D4 /* View+Helper.swift in Sources */,
+				17C7B29C2743CB3300BC51D4 /* PaginationSensitivity.swift in Sources */,
+				17C7B2BA2743CB3300BC51D4 /* PagerContent+Buildable.swift in Sources */,
+				17C7B2B52743CB3300BC51D4 /* Page.swift in Sources */,
+				17C7B2832743CB3300BC51D4 /* Buildable.swift in Sources */,
+				17C7B2922743CB3300BC51D4 /* SwipeInteractionArea.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDE441323DE10C10022A2F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C7B2932743CB3300BC51D4 /* SwipeDirection.swift in Sources */,
+				17C7B2A22743CB3300BC51D4 /* GesturePriority.swift in Sources */,
+				17C7B2662743CB3300BC51D4 /* Pager.swift in Sources */,
+				17C7B25C2743CB3300BC51D4 /* PagerContent.swift in Sources */,
+				17C7B2892743CB3300BC51D4 /* PositionAlignment.swift in Sources */,
+				17C7B27A2743CB3300BC51D4 /* CGPoint+Angle.swift in Sources */,
+				17C7B2BB2743CB3300BC51D4 /* PageWrapper.swift in Sources */,
+				17C7B2702743CB3300BC51D4 /* OnAnimationCompletedModifier.swift in Sources */,
+				17C7B2842743CB3300BC51D4 /* PagingAnimation.swift in Sources */,
+				17C7B2AC2743CB3300BC51D4 /* Pager+Buildable.swift in Sources */,
+				17C7B2612743CB3300BC51D4 /* PageTransition.swift in Sources */,
+				17C7B2A72743CB3300BC51D4 /* PagerContent+Helper.swift in Sources */,
+				17C7B29D2743CB3300BC51D4 /* ContentLoadingPolicy.swift in Sources */,
+				17C7B2752743CB3300BC51D4 /* View+Helper.swift in Sources */,
+				17C7B2982743CB3300BC51D4 /* PaginationSensitivity.swift in Sources */,
+				17C7B2B62743CB3300BC51D4 /* PagerContent+Buildable.swift in Sources */,
+				17C7B2B12743CB3300BC51D4 /* Page.swift in Sources */,
+				17C7B27F2743CB3300BC51D4 /* Buildable.swift in Sources */,
+				17C7B28E2743CB3300BC51D4 /* SwipeInteractionArea.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		172F4D5E23DF830600FD2F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftUIPager/SupportFiles/Info-macOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmoyader.SwiftUIPager;
+				PRODUCT_NAME = SwiftUIPager;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		172F4D5F23DF830600FD2F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftUIPager/SupportFiles/Info-macOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmoyader.SwiftUIPager;
+				PRODUCT_NAME = SwiftUIPager;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		172F4D7E23DF8A6400FD2F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftUIPager/SupportFiles/Info-watchOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmoyader.SwiftUIPager;
+				PRODUCT_NAME = SwiftUIPager;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		172F4D7F23DF8A6400FD2F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftUIPager/SupportFiles/Info-watchOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmoyader.SwiftUIPager;
+				PRODUCT_NAME = SwiftUIPager;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		6B2C3065248D740800E528F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftUIPager/SupportFiles/Info-Catalyst.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmoyader.SwiftUIPager;
+				PRODUCT_NAME = SwiftUIPager;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B2C3066248D740800E528F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftUIPager/SupportFiles/Info-Catalyst.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmoyader.SwiftUIPager;
+				PRODUCT_NAME = SwiftUIPager;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6BBC3D702488DBE8004194BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftUIPager/SupportFiles/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmoyader.SwiftUIPager;
+				PRODUCT_NAME = SwiftUIPager;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+			};
+			name = Debug;
+		};
+		6BBC3D712488DBE8004194BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftUIPager/SupportFiles/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmoyader.SwiftUIPager;
+				PRODUCT_NAME = SwiftUIPager;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+			};
+			name = Release;
+		};
+		6BC5EE502487F5E000E1E78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMMUM2Q3NC;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/SwiftUIPager/Helpers/SwiftUIPager-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6BC5EE512487F5E000E1E78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMMUM2Q3NC;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/SwiftUIPager/Helpers/SwiftUIPager-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6BDE441D23DE10C10022A2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		6BDE441E23DE10C10022A2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		6BDE442023DE10C10022A2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftUIPager/SupportFiles/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmoyader.SwiftUIPager;
+				PRODUCT_NAME = SwiftUIPager;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BDE442123DE10C10022A2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftUIPager/SupportFiles/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmoyader.SwiftUIPager;
+				PRODUCT_NAME = SwiftUIPager;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		172F4D5D23DF830600FD2F15 /* Build configuration list for PBXNativeTarget "SwiftUIPager_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172F4D5E23DF830600FD2F15 /* Debug */,
+				172F4D5F23DF830600FD2F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172F4D7D23DF8A6400FD2F15 /* Build configuration list for PBXNativeTarget "SwiftUIPager_watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172F4D7E23DF8A6400FD2F15 /* Debug */,
+				172F4D7F23DF8A6400FD2F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2C3064248D740800E528F9 /* Build configuration list for PBXNativeTarget "SwiftUIPager_Catalyst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2C3065248D740800E528F9 /* Debug */,
+				6B2C3066248D740800E528F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BBC3D722488DBE8004194BD /* Build configuration list for PBXNativeTarget "SwiftUIPager_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BBC3D702488DBE8004194BD /* Debug */,
+				6BBC3D712488DBE8004194BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC5EE4F2487F5E000E1E78C /* Build configuration list for PBXAggregateTarget "SwiftUIPager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC5EE502487F5E000E1E78C /* Debug */,
+				6BC5EE512487F5E000E1E78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BDE441123DE10C10022A2F7 /* Build configuration list for PBXProject "SwiftUIPager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDE441D23DE10C10022A2F7 /* Debug */,
+				6BDE441E23DE10C10022A2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BDE441F23DE10C10022A2F7 /* Build configuration list for PBXNativeTarget "SwiftUIPager_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDE442023DE10C10022A2F7 /* Debug */,
+				6BDE442123DE10C10022A2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BDE440E23DE10C10022A2F7 /* Project object */;
+}
